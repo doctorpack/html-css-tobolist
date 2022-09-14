@@ -8,6 +8,10 @@
 
     display: inline;
 }
+
+.header-site{
+    background-color: rgb(244, 222, 222);
+}
     
 .main-container{
     width: 70%;
