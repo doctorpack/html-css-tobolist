@@ -4,13 +4,173 @@
     box-sizing: border-box;
 }
 
+.header{
+    display: inline;
+    background-color:rgb(239, 226, 226);
+}
 .titolo{
-      display: inline;
 
+    display: inline;
+}
+    
+.main-container{
+    width: 70%;
+    margin: auto;
+}
+.head-background{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(239, 226, 226);
+    margin-top: 3%;
+}
+.main-background{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(239, 226, 226);
+    margin-top: 3px;
+    padding-top: 30px;
 }
 
-.head{
-    background-color: rgba(236, 236, 216, 0.859);
-
+.button1{
+    border-color: #47adf1;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #47adf1;
+    height: 30px;
+    width: 80px;
+    color: white;
+    padding: 0px;
+    margin: 10px 0;
 }
 
+.button2{
+    border-color: #dee1e4;
+    border-radius: 5px;
+    border: 1px solid #dee1e4;
+    background-color: #ffffff;
+    height: 30px;
+    width: 100px;
+    color: #dee1e4;
+    padding: 0px;
+    margin: 10px 0;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+ul{
+    margin-bottom: 30px;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 20px; 
+}
+.triangle{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.check{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid green;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    vertical-align: middle;
+    color: green;
+}
+.cross{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid red;
+    text-align: center;
+    line-height: 20px;
+    font-size: 7px;
+    vertical-align: middle;
+    color: red;
+}
+
+.editorial{
+    height: 30px;
+    width: 80px;
+    background-color: #45abea;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 5px;
+}
+.q1goals{
+    height: 30px;
+    width: 80px;
+    background-color: purple;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 5px;
+}
+.recruiting{
+    height: 30px;
+    width: 80px;
+    background-color: green;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 5px;
+}
+.mobile{
+    height: 30px;
+    width: 80px;
+    background-color: lightblue;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 5px;
+}
+.website{
+    height: 30px;
+    width: 80px;
+    background-color: lightgreen;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 5px;
+}
+.sales{
+    height: 30px;
+    width: 80px;
+    background-color: lightskyblue;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-left: 5px;
+}

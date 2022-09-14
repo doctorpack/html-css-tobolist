@@ -4,19 +4,85 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Toboolist</title>
 
         <link rel="stylesheet" href="css/style.css">
 
     </head>
     <body>
-        <header class="head">
-            <img src="img/Logo.png" alt="">
-            <h1 class="titolo">Toboolist</h1>
-        </header>
-        <!-- pulsanti -->
-        <input class="button1" type="button" value="Add task">
-        <input class="button2" type="button" value="Add section">
+        <div class="header">
+            <header>
+                <img src="img/Logo.png" alt="">
+                <h1 class="titolo">Toboolist</h1>
+            </header>
+        </div>
+    
+        
+    <main>
+      
+        <div class="head-background">
+          
+            <div class="container">
+                
+                <button class="button1">Add Task</button>
+                <button class="button2">Add Section</button>
+            </div>
+        </div>
+       
+        <div class="main-background">
+            
+            <div class="container">
+               
+                <ul>
+                   
+                    <li>
+                        <span class="triangle">&#9662; New Task</span>
+                        <ul>
+                            <li>
+                                <span class="check">&check;</span> Quarterly Newsletter <span class="category-editorial">Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <span class="triangle">&#9662; Today</span>
+                        <ul>
+                            <li>
+                                <span class="check">&check;</span> Recruiting blog post <span class="editorial">Editorial</span>
+                            </li>
+                            <li>
+                                <span class="check">&check;</span> Mobile app launch <span class="q1goals">Q1 Goals</span>
+                            </li>
+                            <li>
+                                <span class="cross">&#9587;</span> Interview John H. <span class="recruiting">Recruiting</span>
+                            </li>
+                            <li>
+                                <span class="check">&check;</span> Summit update to mobile storefronts<span class="mobile">Mobile</span>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <span class="triangle">&#9662; Upcoming</span>
+                        <ul>
+                            <li>
+                                <span class="cross">&#9587;</span> Schedule meeting with Alex <span class="website">Website</span>
+                            </li>
+                            <li>
+                                <span class="check">&check;</span> Homepage refresh<span class="website">Website</span>
+                            </li>
+                            <li>
+                                <span class="check">&check;</span> Onboard new sales team members <span class="sales">Sales</span>
+                            </li>
+                            <li>
+                                <span class="check">&check;</span> Review editorial calendar <span class="editorial">Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
 
         <h2></h2>
 
@@ -25,4 +91,5 @@
         
         
     </body>
+    
 </html>
